@@ -103,12 +103,8 @@ namespace love_confession_by_calculator
                 new PropertyCondition(AutomationElement.ControlTypeProperty, ControlType.Window));
 
             //find caculator as the child of root
-            //Console.WriteLine(rootElement.FindFirst(TreeScope.Children, conditionName_ControlType).Current.Name);
-
             AutomationElement echild_under_root = rootElement.FindFirst(
                 TreeScope.Children, conditionName_ControlType);
-
-            //Console.WriteLine(echild_under_root.Current.Name);
 
             Thread.Sleep(300);
 
@@ -182,20 +178,6 @@ namespace love_confession_by_calculator
             var click1 = (InvokePattern)find_number_one.GetCurrentPattern(InvokePattern.Pattern);
             //click1.Invoke();
 
-            //----------------------------------------------------------------------------------------//
-
-            AutomationElementCollection child_under_root = rootElement.FindAll(
-                TreeScope.Children, conditionName_ControlType);
-
-            AutomationElement[] elementArray = new AutomationElement[child_under_root.Count];
-            child_under_root.CopyTo(elementArray, 0);
-
-            for (int i = 0; i < elementArray.Length; i++)
-            {
-                Console.WriteLine(elementArray[i].Current.Name);
-            }
-
-            // Find the element.
             return rootElement.FindFirst(TreeScope.Descendants, conditionName_ControlType);
         }
     }
