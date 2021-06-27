@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Love_confession_by_caculator", "Love_confession_by_caculator\Love_confession_by_caculator.csproj", "{AA709B67-AFD1-442C-B8FA-052D8F788BAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA709B67-AFD1-442C-B8FA-052D8F788BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA709B67-AFD1-442C-B8FA-052D8F788BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA709B67-AFD1-442C-B8FA-052D8F788BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA709B67-AFD1-442C-B8FA-052D8F788BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD635698-74F7-432D-A62E-BC11676CE36F}
+	EndGlobalSection
+EndGlobal
