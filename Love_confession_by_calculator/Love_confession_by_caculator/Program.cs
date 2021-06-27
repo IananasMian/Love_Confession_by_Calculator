@@ -37,7 +37,6 @@ namespace love_confession_by_calculator
             Console.WriteLine("\nAnswer:");
             Console.WriteLine(Answer.Current.Name);
 
-            //Console.WriteLine(Answer.Current.ControlType.ProgrammaticName);
             while (true)
             {
             }
@@ -70,10 +69,6 @@ namespace love_confession_by_calculator
 
         private static AutomationElement Result(AutomationElement findElement, String Automation_Id, TreeScope TSsearch)
         {
-            //AndCondition conditionId_ControlType = new AndCondition(
-            //    new PropertyCondition(AutomationElement.AutomationIdProperty, Automation_Id),
-            //    new PropertyCondition(AutomationElement.ControlTypeProperty, CTtype));
-
             Condition propCondition = new PropertyCondition(
                 AutomationElement.AutomationIdProperty, Automation_Id, PropertyConditionFlags.IgnoreCase);
 
